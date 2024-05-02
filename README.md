@@ -1,4 +1,4 @@
-A small and simple backend downloading and indexing [SVIC Podcast](https://www.youtube.com/@svicpodcast) transcripts currently running in Azure OpenAI, using Azure OpenAIs embedding model, llama-index, and a FAISS vector store, but it could run anywhere, e.g. locally on Ollama/Llama 3/Weaviate or whatever by just changing a couple of lines of code.
+Still work in progress. A small and simple backend downloading and indexing [SVIC Podcast](https://www.youtube.com/@svicpodcast) transcripts currently running in Azure OpenAI, using Azure OpenAIs embedding model, llama-index, and a FAISS vector store, but it could run anywhere, e.g. locally on Ollama/Llama 3/Weaviate or whatever by just changing a couple of lines of code.
 
 Exposes a simple OpenAPI in FastAPI with just one endpoint:
 
