@@ -1,0 +1,15 @@
+version: '3'
+services:
+  svic-prod:
+    image: "svic:latest"
+    restart: always
+    networks:
+      - nginx-proxy
+      - default
+    environment:
+      - VIRTUAL_HOST=svic.textwork.ai
+      - LETSENCRYPT_HOST=svic.textwork.ai
+      - LETSENCRYPT_EMAIL=arnejanning@outlook.com
+networks:
+  nginx-proxy:
+    external: true

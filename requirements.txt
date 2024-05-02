@@ -1,0 +1,12 @@
+python-dotenv
+llama-index
+llama-index-llms-azure-openai
+llama-index-embeddings-azure-openai
+llama-index-readers-youtube-transcript
+llama-index-vector-stores-faiss
+faiss-cpu
+openai
+youtube_transcript_api
+scrapetube
+fastapi[all]
+uvicorn[standard]
