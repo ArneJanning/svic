@@ -9,6 +9,7 @@ Exposes a simple OpenAPI in FastAPI with just one endpoint:
 ```
 
 You will need an .env file in the root directory with the following content to run this on Azure OpenAI:
+
 ```AZURE_OPENAI_API_KEY="your_azure_api_key" 
 AZURE_OPENAI_ENDPOINT="https://<your_endpoint>.openai.azure.com/"
 OPENAI_API_VERSION="whatever_version_is_currently_supported"```
