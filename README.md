@@ -1,4 +1,4 @@
-A small and simple backend downloading and indexing [SVIC Podcast](https://www.youtube.com/@svicpodcast) currently running in Azure OpenAI, Azure OpenAIs embedding model using llama-index, and a FAISS vector store, but it could run anywhere, e.g. locally on Ollama/Llama 3/Weaviate or whatever by just changing a couple of lines of code.
+A small and simple backend downloading and indexing [SVIC Podcast](https://www.youtube.com/@svicpodcast) transcripts currently running in Azure OpenAI, using Azure OpenAIs embedding model, llama-index, and a FAISS vector store, but it could run anywhere, e.g. locally on Ollama/Llama 3/Weaviate or whatever by just changing a couple of lines of code.
 
 Exposes a simple OpenAPI in FastAPI with just one endpoint:
 
@@ -10,6 +10,8 @@ Exposes a simple OpenAPI in FastAPI with just one endpoint:
 
 You will need an .env file in the root directory with the following content to run this on Azure OpenAI:
 
-```AZURE_OPENAI_API_KEY="your_azure_api_key" 
+```
+AZURE_OPENAI_API_KEY="your_azure_api_key" 
 AZURE_OPENAI_ENDPOINT="https://<your_endpoint>.openai.azure.com/"
-OPENAI_API_VERSION="whatever_version_is_currently_supported"```
+OPENAI_API_VERSION="whatever_version_is_currently_supported"
+```
