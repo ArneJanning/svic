@@ -1,0 +1,1 @@
+A small and simple backend downloading and indexing [SVIC Podcast](https://www.youtube.com/@svicpodcast) currently running in Azure OpenAI, Azure OpenAIs embedding model using llama-index, and a FAISS vector store, but it could run anywhere, e.g. locally on Ollama/Llama 3/Weaviate or whatever by just changing a couple of lines of code.
